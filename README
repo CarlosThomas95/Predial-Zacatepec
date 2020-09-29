@@ -1,0 +1,19 @@
+## Estructura de la base de datos.
+   ### La base de datos contiene informacion acerca de los predios ubicados en el Municipio de Zacatepec:
+   #### + Clave: Hace referencia al numero de cuenta UNICO, correspondiente a cada predio.
+   #### + Claveanterior: Corresponde a un numero DESCONTINUADO y relacionado a la CUENTA actual de predio.
+   #### + Cuentapredial: No contiene informacion.
+   #### + Propietario: Nombre del poseedor del predio.
+   #### + Domicilio: Ubicación del predio. 
+   #### + Colonia: Colonia en la que se ubica el predio.
+   #### + C.P: Codigo Postal referente al predio.
+   #### + Domnotificacion, Colnotificacion, Ciudadnotificacion: Estas tres columnas en conjunto presentan un domicilio alternativo del propietario, en donde se le puede notifcar algun asunto relacionado a su(s) predio(s).
+   #### + Tipopredio: Existen dos categorias principales; RUSTICO y URBANO.
+   #### + Sterreno: Superficie en metros cuadrados del predio.
+   #### + Sconstruccion: Superficie en metros cuadrados de la construccion en dicho predio.
+   #### + Vterreno: Valor en pesos mexicanos del predio. 
+   #### + Vconstruccion: Valor en pesos mexicanos de la construccion en el predio. 
+   #### + Vpredio: Valor total en pesos mexicanos del predio (valor del predio más valor de construccion)
+   #### + Bimultimopago: Ultimo bimestre pagado, el primer digito corresponde al bimestre (del 1 al 6) y difitos restantes corresponden al ejercicio fiscal pagado o año.
+  #### + Totalapagar: Adeudo total.
+  #### + Estado: Entidad Federativa. 
